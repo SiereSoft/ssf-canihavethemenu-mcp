@@ -1,0 +1,48 @@
+MenuMap Plugin License
+
+Copyright (c) 2026 SiereSoft. All rights reserved.
+
+This repository and every file in it (the "Software") are the proprietary
+property of SiereSoft. The Software is published so that it can be installed
+through plugin marketplaces; publication does not place it in the public
+domain or under an open-source license.
+
+1. Permitted use. You may install the Software, in unmodified form, into an AI
+   assistant or agent (such as Claude Code, Claude Cowork, the Claude apps,
+   Codex or ChatGPT) and use it solely to access the MenuMap service operated
+   by SiereSoft at caniseethemenu.com. Installing may copy the Software onto
+   your device or into the assistant's plugin storage; that copying is
+   permitted.
+
+2. Plugin directories. Anthropic, OpenAI and other operators of plugin
+   directories or marketplaces that SiereSoft submits the Software to may
+   host, copy, scan, mirror and distribute it, unmodified, to their users for
+   the purpose described in section 1.
+
+3. Restrictions. Except as permitted above, you may not copy, modify, adapt,
+   translate, create derivative works of, redistribute, sublicense, sell, rent
+   or publish the Software or any part of it, or use it to access any service
+   other than MenuMap. Forking this repository on GitHub, as GitHub's Terms of
+   Service allow for public repositories, grants no rights beyond this license.
+
+4. Ownership. SiereSoft retains all right, title and interest in the Software,
+   including all intellectual property rights. The names "MenuMap" and
+   "SiereSoft" and the MenuMap logo may not be used without SiereSoft's
+   written permission.
+
+5. Termination. This license ends automatically if you breach it. SiereSoft
+   may also end it at any time by notice, including by removing the Software
+   from a directory or marketplace. On termination you must uninstall and
+   delete the Software.
+
+6. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS
+   FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. Menu items, prices, opening
+   hours and other data returned by the MenuMap service may be incomplete or
+   out of date.
+
+7. Limitation of liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, SIERESOFT
+   IS NOT LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE
+   SOFTWARE OR ITS USE.
+
+For any other use, contact support@sieresoft.com.

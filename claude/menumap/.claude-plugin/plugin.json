@@ -1,0 +1,11 @@
+{
+  "name": "menumap",
+  "displayName": "MenuMap",
+  "version": "0.1.0",
+  "description": "Search Sofia restaurants and their full menus with EUR prices: find places by name or location, find a dish across every menu, read menus, restaurant details and dishes. Connects to the MenuMap MCP server at caniseethemenu.com/mcp.",
+  "author": { "name": "SiereSoft", "email": "support@sieresoft.com", "url": "https://github.com/SiereSoft" },
+  "homepage": "https://caniseethemenu.com",
+  "repository": "https://github.com/SiereSoft/ssf-canihavethemenu-mcp",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["restaurants", "menus", "food", "sofia", "bulgaria"]
+}

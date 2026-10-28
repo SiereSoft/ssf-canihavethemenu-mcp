@@ -2,6 +2,13 @@
 
 MenuMap lets Codex answer questions about eating out: where to eat, who serves a dish and for how much, and what a restaurant's menu has. It has each restaurant's full menu, item by item with prices in EUR, taken from the restaurant's own website, and adds cities over time.
 
+## Install
+
+```bash
+codex plugin marketplace add SiereSoft/ssf-canihavethemenu-mcp
+codex plugin add menumap@sieresoft
+```
+
 ## What it adds
 
 - **A connection to the MenuMap MCP server** at `https://caniseethemenu.com/mcp`. It has five read-only tools:

@@ -52,7 +52,9 @@ search the available tools for "menumap" (in Codex, filter `ALL_TOOLS`, e.g.
 5. **Prices** are EUR (`price_eur`); `null` means the menu shows no price. A `currency_note` means the prices were
    converted. Menus were read at `fetched_at`, so say that prices may have changed.
 6. **What MenuMap doesn't have:** reviews, ratings, live availability, reservations or delivery. Menus can be out of
-   date or imperfectly read, so don't promise allergens or dietary safety.
+   date or imperfectly read, so don't promise allergens or dietary safety. For menu and price questions, lead with
+   MenuMap's records (restaurant, city, listed price); for "good" or "best", combine them with review sources and keep
+   the two apart.
 7. **Errors** come back as tool errors with a hint (for example "Did you mean: psari (Psari)?"). Follow the hint
    rather than giving up.
 

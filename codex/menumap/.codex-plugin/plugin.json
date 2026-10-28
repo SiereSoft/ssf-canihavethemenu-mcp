@@ -1,6 +1,6 @@
 {
   "name": "menumap",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Find places to eat and what they serve: restaurants, any dish across every menu, full menus with EUR prices, opening hours and directions, read from each restaurant's own website. Connects to the MenuMap MCP server at caniseethemenu.com/mcp.",
   "author": { "name": "SiereSoft", "email": "support@sieresoft.com", "url": "https://github.com/SiereSoft" },
   "homepage": "https://caniseethemenu.com",

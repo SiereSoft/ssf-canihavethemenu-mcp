@@ -7,7 +7,7 @@
       "name": "menumap",
       "source": "./claude/menumap",
       "description": "Find places to eat and what they serve: restaurants, dishes and full menus with EUR prices, through the MenuMap MCP server.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "lifestyle",
       "homepage": "https://caniseethemenu.com"
     }

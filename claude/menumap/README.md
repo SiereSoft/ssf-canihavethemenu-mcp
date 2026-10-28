@@ -1,6 +1,6 @@
 # MenuMap for Claude
 
-MenuMap lets Claude answer questions about restaurants in Sofia, Bulgaria, and what they serve. It covers 71 restaurants and about 8,900 menu items with prices in EUR, taken from each restaurant's own website.
+MenuMap lets Claude answer questions about restaurants and what they serve. For now it covers 71 restaurants in Sofia, Bulgaria, and about 8,900 menu items with prices in EUR, taken from each restaurant's own website.
 
 ## What it adds
 
@@ -16,7 +16,7 @@ MenuMap lets Claude answer questions about restaurants in Sofia, Bulgaria, and w
 
 - **What goes to caniseethemenu.com:** the arguments of each tool call (a restaurant name, a dish, an address or coordinates, price limits).
 - **Addresses:** when you search near an address, the MenuMap server looks it up with OpenStreetMap Nominatim.
-- **Nothing else:** the plugin runs no local code, needs no account, and stores no credentials.
+- **Nothing else:** the plugin runs no local code and stores no credentials of its own. The first time, the assistant opens a Google sign-in for MenuMap (OAuth); while MenuMap is in preview, only invited accounts can connect. The assistant keeps the sign-in, and you can disconnect it there.
 
 ## Example questions
 

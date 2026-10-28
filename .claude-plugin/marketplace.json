@@ -1,13 +1,13 @@
 {
   "name": "sieresoft",
   "owner": { "name": "SiereSoft", "email": "support@sieresoft.com", "url": "https://github.com/SiereSoft" },
-  "description": "SiereSoft plugins: MenuMap, Sofia restaurants and menus.",
+  "description": "SiereSoft plugins: MenuMap, restaurants and their menus.",
   "plugins": [
     {
       "name": "menumap",
       "source": "./claude/menumap",
-      "description": "Search Sofia restaurants and their full menus with EUR prices through the MenuMap MCP server.",
-      "version": "0.1.0",
+      "description": "Search restaurants (for now in Sofia, Bulgaria) and their full menus with EUR prices through the MenuMap MCP server.",
+      "version": "0.1.1",
       "category": "lifestyle",
       "homepage": "https://caniseethemenu.com"
     }

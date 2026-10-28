@@ -1,11 +1,11 @@
 ---
 name: menumap
-description: Look up restaurants in Sofia, Bulgaria, and what they serve, with prices. Use when the user asks where to eat, what a restaurant serves or costs, which places near an address have a dish, or for a restaurant's address, phone or opening hours. Uses the MenuMap MCP tools (search_restaurants, search_dishes, list_menu, get_restaurant, get_menu_item).
+description: Look up restaurants and what they serve, with prices (for now in Sofia, Bulgaria). Use when the user asks where to eat, what a restaurant serves or costs, which places near an address have a dish, or for a restaurant's address, phone or opening hours. Uses the MenuMap MCP tools (search_restaurants, search_dishes, list_menu, get_restaurant, get_menu_item).
 ---
 
-# MenuMap: Sofia restaurants and menus
+# MenuMap: restaurants and menus
 
-The MenuMap MCP server has 71 Sofia restaurants and their full menus (about 8,900 items) with prices in EUR, taken from each restaurant's own website. It is read-only and needs no account.
+The MenuMap MCP server has restaurants and their full menus, for now 71 in Sofia, (about 8,900 items) with prices in EUR, taken from each restaurant's own website. It is read-only. The first time, the user signs in with Google; during the preview only invited accounts can connect, and a refused account should ask support@sieresoft.com for access.
 
 ## Tools
 

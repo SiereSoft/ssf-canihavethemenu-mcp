@@ -56,6 +56,21 @@ for (const [agent, dir] of Object.entries(PLUGINS)) {
 }
 if (skills.claude !== skills.codex) fail("The Claude and Codex SKILL.md files differ; keep them identical");
 
+// No city: MenuMap adds cities over time, so where it covers comes from the server's results, never from the plugins.
+// The skill's description is what makes the assistant load it, so it says when to use MenuMap first.
+const PLACES = /sofia|софия|bulgaria|българия|\bndk\b|vitosha|mladost|lozenets|rakovski/i;
+const shipped = [
+  "README.md", ".claude-plugin/marketplace.json", ".agents/plugins/marketplace.json",
+  ...Object.values(PLUGINS).flatMap((dir) => ["README.md", "skills/menumap/SKILL.md", ".claude-plugin/plugin.json", ".codex-plugin/plugin.json"].map((f) => `${dir}/${f}`)),
+].filter((f) => existsSync(join(ROOT, f)));
+for (const f of shipped) {
+  const hit = readFileSync(join(ROOT, f), "utf8").match(PLACES);
+  if (hit) fail(`${f}: names "${hit[0]}"; say where MenuMap covers through the server's results, not in the plugin`);
+}
+const trigger = /^---\nname: [^\n]+\ndescription: ([^\n]+)\n/.exec(skills.claude)?.[1] ?? "";
+if (!/^Use when the user /.test(trigger)) fail("SKILL.md description: start with \"Use when the user\", so the assistant knows when to load it");
+for (const w of [/eat/i, /restaurant/i, /dish/i, /menu/i, /price|cost/i]) if (!w.test(trigger)) fail(`SKILL.md description: doesn't mention ${w}`);
+
 // Claude manifest and marketplace.
 if (claude.name !== "menumap") fail("claude plugin.json: name must be menumap");
 if (!claude.license) fail("claude plugin.json: license is missing");

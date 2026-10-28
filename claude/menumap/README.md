@@ -1,6 +1,6 @@
 # MenuMap for Claude
 
-MenuMap lets Claude answer questions about restaurants and what they serve. For now it covers 71 restaurants in Sofia, Bulgaria, and about 8,900 menu items with prices in EUR, taken from each restaurant's own website.
+MenuMap lets Claude answer questions about eating out: where to eat, who serves a dish and for how much, and what a restaurant's menu has. It has each restaurant's full menu, item by item with prices in EUR, taken from the restaurant's own website, and adds cities over time.
 
 ## What it adds
 
@@ -10,7 +10,7 @@ MenuMap lets Claude answer questions about restaurants and what they serve. For 
   - `list_menu`: read a restaurant's menu, optionally one category.
   - `get_restaurant`: address, opening hours, phone, website and a menu summary.
   - `get_menu_item`: one dish in full.
-- **A `menumap` skill** that tells the assistant how to use these tools well. For example: query in Bulgarian when English finds little, and narrow big menus by category.
+- **A `menumap` skill** that tells the assistant how to use these tools well. For example: retry in the menu's language when English finds little, say which city results are in, and narrow big menus by category.
 
 ## What it sends and where
 
@@ -20,8 +20,9 @@ MenuMap lets Claude answer questions about restaurants and what they serve. For 
 
 ## Example questions
 
-- "Where can I get a shopska salad under €8 near NDK in Sofia?"
-- "Is there a sushi place in Mladost?"
+- "Where can I get a good burger, and what does it cost?"
+- "A shopska salad under €8 near the central station."
+- "Recommend a vegan restaurant."
 - "What desserts does Psari have, and when is it open?"
 
 Prices are as published by each restaurant and may be out of date.

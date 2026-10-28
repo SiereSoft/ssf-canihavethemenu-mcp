@@ -1,11 +1,13 @@
 {
   "name": "menumap",
   "displayName": "MenuMap",
-  "version": "0.1.1",
-  "description": "Search restaurants (for now in Sofia, Bulgaria) and their full menus with EUR prices: find places by name or location, find a dish across every menu, read menus, restaurant details and dishes. Connects to the MenuMap MCP server at caniseethemenu.com/mcp.",
+  "version": "0.2.0",
+  "description": "Find places to eat and what they serve: restaurants, any dish across every menu, full menus with EUR prices, opening hours and directions, read from each restaurant's own website. Connects to the MenuMap MCP server at caniseethemenu.com/mcp.",
   "author": { "name": "SiereSoft", "email": "support@sieresoft.com", "url": "https://github.com/SiereSoft" },
   "homepage": "https://caniseethemenu.com",
+  "privacyPolicyUrl": "https://caniseethemenu.com/legal/privacy",
+  "icon": "./assets/icon.png",
   "repository": "https://github.com/SiereSoft/ssf-canihavethemenu-mcp",
   "license": "SEE LICENSE IN LICENSE",
-  "keywords": ["restaurants", "menus", "food", "sofia", "bulgaria"]
+  "keywords": ["restaurants", "places to eat", "menus", "dishes", "food", "prices", "dining"]
 }

@@ -6,8 +6,8 @@
     {
       "name": "menumap",
       "source": "./claude/menumap",
-      "description": "Search restaurants (for now in Sofia, Bulgaria) and their full menus with EUR prices through the MenuMap MCP server.",
-      "version": "0.1.1",
+      "description": "Find places to eat and what they serve: restaurants, dishes and full menus with EUR prices, through the MenuMap MCP server.",
+      "version": "0.2.0",
       "category": "lifestyle",
       "homepage": "https://caniseethemenu.com"
     }

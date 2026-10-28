@@ -1,8 +1,9 @@
 # MenuMap plugins for Claude and Codex
 
-Plugins that connect AI assistants to **MenuMap**: restaurants and their menus, for now 71 restaurants in Sofia, Bulgaria, with their full menus (about
-8,900 items, prices in EUR) taken from each restaurant's own website. The assistant can search restaurants by name or
-location, find a dish across every menu, and read menus, restaurant details and dishes.
+Plugins that connect AI assistants to **MenuMap**: places to eat and what they serve. MenuMap has each restaurant's
+full menu, item by item with prices in EUR, taken from the restaurant's own website, and adds cities over time. The
+assistant can find where to get a dish and what it costs, search restaurants by cuisine, name or location, and read
+menus, opening hours and contact details.
 
 Each plugin connects to the read-only MenuMap MCP server at `https://caniseethemenu.com/mcp`, which needs no account.
 Each also bundles a `menumap` skill that teaches the assistant how to use the tools. The server itself lives in
@@ -26,6 +27,8 @@ scripts/package-cowork.sh http://localhost:3000/mcp      # dist/menumap-dev.plug
 
 - **Keep the two `skills/menumap/SKILL.md` files identical.** `check.mjs` fails otherwise.
 - **Bump `version` together** in both `plugin.json` files and in `.claude-plugin/marketplace.json`.
+- **Name no city** in the skill, manifests or READMEs: MenuMap adds cities over time, and the server's results say
+  where it covers. `check.mjs` fails otherwise.
 - **Claude Code against a dev server:** run `claude --plugin-dir claude/menumap` with a local copy whose `.mcp.json`
   points at your server.
 - **Codex against a dev server:** add a same-named user server in `~/.codex/config.toml`, which takes precedence:

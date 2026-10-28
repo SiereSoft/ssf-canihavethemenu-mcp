@@ -5,7 +5,7 @@ description: Look up restaurants and what they serve, with prices (for now in So
 
 # MenuMap: restaurants and menus
 
-The MenuMap MCP server has restaurants and their full menus, for now 71 in Sofia, (about 8,900 items) with prices in EUR, taken from each restaurant's own website. It is read-only. The first time, the user signs in with Google; during the preview only invited accounts can connect, and a refused account should ask support@sieresoft.com for access.
+The MenuMap MCP server has restaurants and their full menus, for now 71 in Sofia (about 8,900 items), with prices in EUR, taken from each restaurant's own website. It is read-only and needs no account.
 
 ## Tools
 

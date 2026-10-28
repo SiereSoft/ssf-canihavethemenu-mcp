@@ -16,7 +16,7 @@ MenuMap lets Claude answer questions about restaurants and what they serve. For 
 
 - **What goes to caniseethemenu.com:** the arguments of each tool call (a restaurant name, a dish, an address or coordinates, price limits).
 - **Addresses:** when you search near an address, the MenuMap server looks it up with OpenStreetMap Nominatim.
-- **Nothing else:** the plugin runs no local code and stores no credentials of its own. The first time, the assistant opens a Google sign-in for MenuMap (OAuth); while MenuMap is in preview, only invited accounts can connect. The assistant keeps the sign-in, and you can disconnect it there.
+- **Nothing else:** the plugin runs no local code, needs no account, and stores no credentials.
 
 ## Example questions
 

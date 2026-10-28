@@ -4,7 +4,7 @@ Plugins that connect AI assistants to **MenuMap**: restaurants and their menus, 
 8,900 items, prices in EUR) taken from each restaurant's own website. The assistant can search restaurants by name or
 location, find a dish across every menu, and read menus, restaurant details and dishes.
 
-Each plugin connects to the read-only MenuMap MCP server at `https://caniseethemenu.com/mcp`. The first time, the assistant opens a Google sign-in for MenuMap (OAuth); while MenuMap is in preview, only invited accounts can connect.
+Each plugin connects to the read-only MenuMap MCP server at `https://caniseethemenu.com/mcp`, which needs no account.
 Each also bundles a `menumap` skill that teaches the assistant how to use the tools. The server itself lives in
 [SiereSoft/ssf-caniseethemenu-com](https://github.com/SiereSoft/ssf-caniseethemenu-com).
 

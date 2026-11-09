@@ -2,7 +2,7 @@
   "mcpServers": {
     "menumap": {
       "type": "http",
-      "url": "https://caniseethemenu.com/mcp",
+      "url": "https://menumap.eu/mcp",
       "startup_timeout_sec": 20,
       "tool_timeout_sec": 30
     }

@@ -11,7 +11,7 @@ codex plugin add menumap@sieresoft
 
 ## What it adds
 
-- **A connection to the MenuMap MCP server** at `https://caniseethemenu.com/mcp`. It has five read-only tools:
+- **A connection to the MenuMap MCP server** at `https://menumap.eu/mcp`. It has five read-only tools:
   - `search_restaurants`: find restaurants by name, cuisine, street or neighbourhood, or distance from an address.
   - `search_dishes`: find a dish across every menu, with price and location filters.
   - `list_menu`: read a restaurant's menu, optionally one category.
@@ -21,7 +21,7 @@ codex plugin add menumap@sieresoft
 
 ## What it sends and where
 
-- **What goes to caniseethemenu.com:** the arguments of each tool call (a restaurant name, a dish, an address or coordinates, price limits).
+- **What goes to menumap.eu:** the arguments of each tool call (a restaurant name, a dish, an address or coordinates, price limits).
 - **Addresses:** when you search near an address, the MenuMap server looks it up with OpenStreetMap Nominatim.
 - **Nothing else:** the plugin runs no local code, needs no account, and stores no credentials.
 

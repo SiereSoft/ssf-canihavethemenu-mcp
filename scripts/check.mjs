@@ -2,7 +2,7 @@
 // Checks both plugins against what Claude's directory and Codex require. No dependencies.
 //   node scripts/check.mjs                 # offline checks
 //   node scripts/check.mjs --live [url]    # also check the skill against the live server's tools
-//                                          # (default https://caniseethemenu.com/mcp; MENUMAP_AUTHORIZATION adds a header)
+//                                          # (default https://menumap.eu/mcp; MENUMAP_AUTHORIZATION adds a header)
 import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 
@@ -97,7 +97,7 @@ if (xm?.source?.path !== `./${PLUGINS.codex}`) fail(".agents/plugins/marketplace
 // Live: the skill documents exactly the server's tools, and the tools carry the annotations both directories want.
 const liveAt = process.argv.indexOf("--live");
 if (liveAt !== -1) {
-  const url = process.argv[liveAt + 1] ?? "https://caniseethemenu.com/mcp";
+  const url = process.argv[liveAt + 1] ?? "https://menumap.eu/mcp";
   const headers = { "Content-Type": "application/json", Accept: "application/json, text/event-stream" };
   if (process.env.MENUMAP_AUTHORIZATION) headers.Authorization = process.env.MENUMAP_AUTHORIZATION;
   const rpc = async (method, params = {}) => {

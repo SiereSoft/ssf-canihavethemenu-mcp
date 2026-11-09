@@ -5,7 +5,7 @@ full menu, item by item with prices in EUR, taken from the restaurant's own webs
 assistant can find where to get a dish and what it costs, search restaurants by cuisine, name or location, and read
 menus, opening hours and contact details.
 
-Each plugin connects to the read-only MenuMap MCP server at `https://caniseethemenu.com/mcp`, which needs no account.
+Each plugin connects to the read-only MenuMap MCP server at `https://menumap.eu/mcp`, which needs no account.
 Each also bundles a `menumap` skill that teaches the assistant how to use the tools. The server itself lives in
 [SiereSoft/ssf-caniseethemenu-com](https://github.com/SiereSoft/ssf-caniseethemenu-com).
 
